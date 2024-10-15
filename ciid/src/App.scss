@@ -1,0 +1,39 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:Arial, Helvetica, sans-serif; /* Estilo global de tipografía */
+  background-color: #F8F9FA; /* Fondo general */
+  color: #333; /* Color del texto */
+  height: 100%;
+  
+}
+
+
+.flex {
+  display: flex;
+  box-sizing: border-box; /* Incluye padding y borde en el tamaño total */
+  overflow-x: hidden; /* Evita el scroll horizontal en todo el contenido */
+}
+
+.navbar {
+  background-color: #ffffff;
+  padding: 1rem 2rem;
+  height: 60px;
+}
+
+
+/* El contenido debe calcular su altura dinámicamente */
+.content {
+  flex-grow: 1;
+  box-sizing: border-box;
+  height: calc(100vh); /* Resta la altura del navbar de la altura total */
+  overflow-y: auto;
+   /* Permite scroll en caso de que el contenido sea muy grande */
+}
+
+footer {
+  padding: 1rem;
+  background-color: #3F51B5;
+  text-align: center;
+}

@@ -1,0 +1,79 @@
+.startup-detail-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.startup-card {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.startup-header-card {
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    width: 100px;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.startup-name-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.startup-name-label {
+    font-size: 2rem;
+    color: #333;
+    margin: 0;
+    text-align: left;
+}
+
+.startup-name {
+    font-size: 2rem;
+    color: #3F51B5;
+    margin: 0;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+.back-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    margin-right: 20px;
+    background-color: #3F51B5;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: auto;
+}
+
+.back-button:hover {
+    background-color: #5c6bc0;
+}
+
+.separator {
+    border: none;
+    height: 2px;
+    background-color: #ccc;
+    margin: 15px 0;
+}
+
+.startup-info-card {
+    text-align: center;
+}
+
+.startup-description {
+    display: flex;
+    flex-direction: column;
+}

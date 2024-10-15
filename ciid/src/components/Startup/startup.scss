@@ -1,0 +1,105 @@
+.startup-container {
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+}
+
+.startup-header {
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.startup-info {
+  display: flex;
+  align-items: center;
+}
+
+.startup-logo {
+  width: 150px;
+  height: 150px;
+  margin-right: 20px;
+}
+
+.startup-description {
+  max-width: 800px;
+}
+
+.card-custom {
+  width: 100%;
+  min-height: 90vh;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+}
+
+.create-startup-button {
+  margin-right: 30px;
+  margin-top: 20px;
+  align-self: flex-start;
+  background-color: var(--indigo-500);
+  border-color: var(--indigo-500);
+  border-radius: 10px;
+}
+
+.startup-table-section {
+  padding-left: 2vh;
+  padding-right: 2vh;
+  margin-top: 10px;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f8f9fa;
+}
+
+.form-container {
+  padding: 10px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  width: 100%;
+}
+
+.form-field {
+  margin-bottom: 20px;
+}
+
+.form-field label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-field .p-inputtext,
+.form-field .p-inputnumber,
+.form-field .p-dropdown,
+.form-field .p-calendar {
+  width: 100%;
+}
+
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.cancel-button {
+  background-color: var(--indigo-500);
+  border: 1px solid var(--indigo-500);
+  color: white;
+  margin-right: 10px;
+}
+
+.submit-button {
+  background-color: var(--indigo-500);
+  border: 1px solid var(--indigo-500);
+  color: white;
+}

@@ -1,0 +1,69 @@
+.home-container {
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    background-color: #f0f4f8; /* Fondo más suave */
+    min-height: 100vh; /* Asegúrate de que ocupe al menos toda la altura de la pantalla */
+}
+
+.home-header {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    background-color: #3F51B5; /* Color de fondo del encabezado */
+    color: white; /* Color del texto del encabezado */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+.card {
+    width: 100%;
+    min-height: 75vh;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff; /* Fondo blanco para la tarjeta */
+    padding: 20px; /* Añadir padding a la tarjeta */
+}
+
+.home-welcome {
+    background-color: #E7F3FE; /* Color de fondo claro para la bienvenida */
+    padding: 20px; /* Añadir padding */
+    border: 1px solid #B2D4E6; /* Borde delgado */
+    border-radius: 10px; /* Bordes redondeados */
+    margin-bottom: 20px; /* Espaciado inferior */
+}
+
+.home-welcome h2 {
+    color: #4A90E2; /* Color del título de bienvenida */
+}
+
+.home-welcome-message {
+    color: #333; /* Color del texto de bienvenida */
+}
+
+.home-info {
+    display: flex;
+    flex-direction: column; /* Cambiado a columna para apilar elementos */
+    align-items: flex-start; /* Alinear a la izquierda */
+}
+
+.home-description {
+    color: #333;
+    margin-bottom: 20px; /* Color de la descripción de la información */
+}
+
+.home-table-section {
+    padding: 2vh;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f8f9fa; /* Color de fondo para la sección de funcionalidades */
+}
+
+
